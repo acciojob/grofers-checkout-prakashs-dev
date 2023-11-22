@@ -14,6 +14,7 @@ const getSum = () => {
         let cell2 = row.insertCell(1);
         cell1.innerText = "Total";
 	    cell1.id = "ans";
+	    cell2.id = "ans";
         cell2.innerText = sum;
 	    getSumBtn.removeEventListener('click',getSum);
 };
