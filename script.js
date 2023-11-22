@@ -13,6 +13,7 @@ const getSum = () => {
         let cell1 = row.insertCell(0);
         let cell2 = row.insertCell(1);
         cell1.innerText = "Total";
+	    cell1.id = "ans";
         cell2.innerText = sum;
 	    getSumBtn.removeEventListener('click',getSum);
 };
